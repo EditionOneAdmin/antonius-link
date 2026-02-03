@@ -9,7 +9,6 @@ import { artworks, Artwork } from '@/data/artworks';
 const categories = [
   { id: 'all', label: 'All Works' },
   { id: 'sculpture', label: 'Sculptures' },
-  { id: 'chrome', label: 'Chrome' },
   { id: 'conceptual', label: 'Conceptual' },
 ];
 
@@ -46,8 +45,8 @@ export default function ArtistPage() {
             className="text-xl text-[var(--text-secondary)] max-w-2xl"
           >
             Every piece tells a story of obsession, precision, and the relentless
-            pursuit of meaning in material form. Chrome becomes canvas. Metal becomes
-            meditation.
+            pursuit of meaning in physical form. Thought becomes tangible. Ideas become
+            permanent.
           </motion.p>
         </div>
       </section>

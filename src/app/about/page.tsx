@@ -92,8 +92,8 @@ export default function AboutPage() {
               { year: '2018', title: 'Founded HYGH', desc: 'Started the mission to democratize outdoor advertising in Berlin.' },
               { year: '2021', title: 'HYGH Expansion', desc: 'Expanded to seven German cities. Growing the network.' },
               { year: '2023', title: '€21.5M Raised', desc: 'Series funding to accelerate pan-DACH expansion.' },
-              { year: '2024', title: 'Edition One', desc: 'Co-founded Edition One. Merging business with artistic vision.' },
-              { year: '2025', title: 'First Exhibition', desc: 'Debuted sculpture collection. Art meets chrome.' },
+              { year: '2025', title: 'First Exhibition', desc: 'Debuted sculpture collection. Art becomes tangible.' },
+              { year: '2026', title: 'Edition One', desc: 'Co-founded Edition One. Merging business with artistic vision.' },
             ].map((item, i) => (
               <motion.div
                 key={item.year}

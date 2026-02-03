@@ -145,22 +145,11 @@ export default function Home() {
                   </span>
                   
                   <h3 className="text-4xl font-bold mb-2">EDITION ONE</h3>
-                  <p className="text-[var(--text-secondary)] mb-4">{editionOneContent.role}</p>
+                  <p className="text-[var(--text-secondary)] mb-4">{editionOneContent.role} · Est. 2026</p>
                   
-                  <p className="text-lg mb-6 leading-relaxed">
+                  <p className="text-lg mb-8 leading-relaxed">
                     {editionOneContent.tagline}
                   </p>
-                  
-                  <div className="flex flex-wrap gap-3 mb-8">
-                    {editionOneContent.offerings.map((offering) => (
-                      <span
-                        key={offering.title}
-                        className="px-3 py-1 bg-[var(--surface-secondary)] rounded-full text-sm"
-                      >
-                        {offering.title}
-                      </span>
-                    ))}
-                  </div>
                   
                   <span className="inline-flex items-center gap-2 text-sm font-medium group-hover:gap-3 transition-all">
                     Discover Edition One

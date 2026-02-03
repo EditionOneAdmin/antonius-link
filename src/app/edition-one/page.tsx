@@ -32,7 +32,7 @@ export default function EditionOnePage() {
             transition={{ delay: 0.1 }}
             className="text-2xl text-[var(--text-secondary)]"
           >
-            {editionOneContent.role} · Est. Berlin
+            {editionOneContent.role} · Est. Berlin 2026
           </motion.p>
         </div>
       </section>
@@ -89,30 +89,8 @@ export default function EditionOnePage() {
         </div>
       </section>
 
-      {/* What We Create */}
-      <section className="py-32 px-6">
-        <div className="max-w-7xl mx-auto">
-          <h2 className="text-title font-bold mb-12 text-center">What We Create</h2>
-          <div className="grid md:grid-cols-3 gap-8">
-            {editionOneContent.offerings.map((offering, i) => (
-              <motion.div
-                key={offering.title}
-                initial={{ opacity: 0, y: 30 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: true }}
-                transition={{ delay: i * 0.1 }}
-                className="p-8 bg-[var(--surface)] rounded-2xl border border-[var(--border)] hover-lift"
-              >
-                <h3 className="text-2xl font-bold mb-3">{offering.title}</h3>
-                <p className="text-[var(--text-secondary)]">{offering.desc}</p>
-              </motion.div>
-            ))}
-          </div>
-        </div>
-      </section>
-
       {/* Featured Works */}
-      <section className="py-20 px-6 bg-[var(--surface)]">
+      <section className="py-32 px-6">
         <div className="max-w-7xl mx-auto">
           <div className="flex justify-between items-end mb-12">
             <h2 className="text-title font-bold">Selected Works</h2>
@@ -151,27 +129,6 @@ export default function EditionOnePage() {
         </div>
       </section>
 
-      {/* The Collective */}
-      <section className="py-32 px-6">
-        <div className="max-w-4xl mx-auto text-center">
-          <span className="text-sm font-mono text-[var(--text-secondary)] mb-4 block">
-            THE COLLECTIVE
-          </span>
-          <h2 className="text-title font-bold mb-12">Founded by Visionaries</h2>
-          <div className="flex justify-center gap-12 flex-wrap">
-            {editionOneContent.collective.map((name) => (
-              <div key={name} className="text-center">
-                <div className="w-20 h-20 rounded-full bg-[var(--surface)] border border-[var(--border)] flex items-center justify-center mb-3 mx-auto">
-                  <span className="text-2xl font-bold">{name.charAt(0)}</span>
-                </div>
-                <p className="font-medium">{name}</p>
-                <p className="text-sm text-[var(--text-secondary)]">Co-Founder</p>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
-
       {/* CTA */}
       <section className="py-20 px-6 bg-[var(--surface)]">
         <div className="max-w-4xl mx-auto text-center">
@@ -179,7 +136,7 @@ export default function EditionOnePage() {
             Create Your Masterpiece
           </h2>
           <p className="text-xl text-[var(--text-secondary)] mb-10">
-            Transform your vision into reality with our bespoke artistic services.
+            Transform your vision into reality with bespoke artistic creation.
           </p>
           <a
             href={editionOneContent.link}

@@ -13,7 +13,7 @@ export const siteConfig = {
 
 export const bio = {
   tagline: 'Where Technology Meets Artistry',
-  intro: `I exist at the intersection of two worlds. By day, I'm reshaping how brands connect with audiences through HYGH—building the digital infrastructure for programmatic outdoor advertising across Germany. By night, I transform raw materials into chrome-plated meditations on existence through Edition One.`,
+  intro: `I exist at the intersection of two worlds. By day, I'm reshaping how brands connect with audiences through HYGH—building the digital infrastructure for programmatic outdoor advertising across Germany. By night, I create sculptures that question existence through Edition One.`,
   
   full: `Some people choose between business and art. I refused.
 
@@ -23,7 +23,7 @@ But technology alone doesn't feed the soul.
 
 Edition One is my answer to a world drowning in mass-produced mediocrity. Together with my co-founders, we bridge visionary collectors with master artisans. Every piece exists once—crafted for one person, one space, one story. No compromises. No replicas.
 
-My sculptures explore the space between chaos and clarity, questioning everything from consciousness to morality. Chrome becomes my medium for making the invisible visible—thoughts rendered in metal, paradoxes frozen in mirror finishes.
+My sculptures explore the space between chaos and clarity, questioning everything from consciousness to morality—thoughts rendered in form, paradoxes frozen in time.
 
 Berlin is my home. Creation is my compass.`,
   
@@ -55,11 +55,5 @@ export const editionOneContent = {
   tagline: 'Art should be as unique as the soul that desires it.',
   problem: `Mass production killed the soul of art. Galleries gatekeep. Prints proliferate. True craftsmanship fades into memory.`,
   solution: `We bridge visionary collectors with master artisans. No middlemen. No compromises. Every piece commissioned through us exists once—crafted for one person, one space, one story.`,
-  offerings: [
-    { title: 'Chrome & Steel', desc: 'Mirror-polished surfaces. Industrial elegance refined into art.' },
-    { title: 'Matte & Chromium', desc: 'Sophisticated finishes. From velvet matte to lustrous chrome reflections.' },
-    { title: 'Bespoke Commissions', desc: 'Beyond categories. If you can dream it, we can manifest it.' },
-  ],
-  collective: ['Antonius Link', 'Kyrill Pysarenko', 'Fritz Sprüth'],
   link: 'https://editionone.art',
 };
