@@ -31,14 +31,21 @@ Berlin is my home. Creation is my compass.`,
 };
 
 export const hyghContent = {
-  role: 'Co-Founder',
-  tagline: 'Digital outdoor advertising, now in HYGH definition.',
-  problem: `Outdoor advertising was broken. Reserved for big brands with bigger budgets. Inflexible. Inaccessible. We saw an industry ripe for disruption.`,
-  solution: `HYGH is the world's first online booking platform for outdoor advertising that makes professional campaign management possible from anywhere. Instant deployment. Hyperlocal targeting. 100% dynamic.`,
+  role: 'Founder & Board Member',
+  tagline: 'Pioneering the new digital infrastructure for programmatic outdoor advertising.',
+  problem: `Outdoor advertising was broken. Reserved for big brands with bigger budgets. Inflexible. Inaccessible. An industry stuck in the analog past while everything else went digital.`,
+  solution: `HYGH built Germany's largest programmatic DOOH network. 100% digital, hyperlocal, and live in seconds. From small businesses to premium brands—anyone can now command the streets with professional outdoor campaigns. No agencies. No minimums. Just results.`,
+  vision: `Founded at 23, I set out to transform how brands connect with people in the physical world. Today, HYGH operates 3,700+ high-resolution displays across 15 German cities, reaching 226 million weekly contacts.`,
   stats: [
-    { value: '€21.5M', label: 'Raised' },
-    { value: '7', label: 'German Cities' },
-    { value: '2018', label: 'Founded' },
+    { value: '3,700+', label: 'Displays' },
+    { value: '15', label: 'Cities' },
+    { value: '226M', label: 'Weekly Reach' },
+  ],
+  networks: [
+    { name: 'City Network', desc: 'High-traffic urban hotspots' },
+    { name: 'Premium Network', desc: 'Kurfürstendamm luxury corridor' },
+    { name: 'POS Network', desc: 'Point-of-sale retail displays' },
+    { name: 'Luxury Network', desc: 'Germany\'s most exclusive hotels' },
   ],
   link: 'https://hygh.tech',
 };

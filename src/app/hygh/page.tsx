@@ -35,22 +35,61 @@ export default function HyghPage() {
         </div>
       </section>
 
-      {/* Tagline */}
+      {/* Vision Statement */}
       <section className="py-20 px-6">
         <div className="max-w-4xl mx-auto">
           <motion.h2
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
-            className="text-headline font-light leading-relaxed"
+            className="text-headline font-light leading-relaxed mb-8"
           >
             {hyghContent.tagline}
           </motion.h2>
+          <motion.p
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ delay: 0.1 }}
+            className="text-xl text-[var(--text-secondary)] leading-relaxed"
+          >
+            {hyghContent.vision}
+          </motion.p>
+        </div>
+      </section>
+
+      {/* Stats */}
+      <section className="py-32 px-6 bg-[var(--surface)]">
+        <div className="max-w-7xl mx-auto">
+          <motion.div
+            initial={{ opacity: 0 }}
+            whileInView={{ opacity: 1 }}
+            viewport={{ once: true }}
+            className="grid grid-cols-3 gap-8"
+          >
+            {hyghContent.stats.map((stat, i) => (
+              <motion.div
+                key={stat.label}
+                initial={{ opacity: 0, y: 20 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true }}
+                transition={{ delay: i * 0.1 }}
+                className="text-center"
+              >
+                <div className="text-5xl md:text-7xl font-bold mb-2 chrome-text">
+                  {stat.value}
+                </div>
+                <div className="text-[var(--text-secondary)] text-lg">
+                  {stat.label}
+                </div>
+              </motion.div>
+            ))}
+          </motion.div>
         </div>
       </section>
 
       {/* Problem / Solution */}
-      <section className="py-20 px-6 bg-[var(--surface)]">
+      <section className="py-20 px-6">
         <div className="max-w-7xl mx-auto grid md:grid-cols-2 gap-16">
           <motion.div
             initial={{ opacity: 0, y: 30 }}
@@ -87,38 +126,45 @@ export default function HyghPage() {
         </div>
       </section>
 
-      {/* Stats */}
-      <section className="py-32 px-6">
+      {/* Networks */}
+      <section className="py-20 px-6 bg-[var(--surface)]">
         <div className="max-w-7xl mx-auto">
-          <motion.div
+          <motion.span
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}
             viewport={{ once: true }}
-            className="grid grid-cols-3 gap-8"
+            className="text-sm font-mono text-[var(--text-secondary)] mb-4 block text-center"
           >
-            {hyghContent.stats.map((stat, i) => (
+            THE NETWORKS
+          </motion.span>
+          <motion.h2
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            className="text-title font-bold mb-12 text-center"
+          >
+            Seven Networks. One Platform.
+          </motion.h2>
+          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+            {hyghContent.networks?.map((network, i) => (
               <motion.div
-                key={stat.label}
-                initial={{ opacity: 0, y: 20 }}
+                key={network.name}
+                initial={{ opacity: 0, y: 30 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
                 transition={{ delay: i * 0.1 }}
-                className="text-center"
+                className="p-6 bg-[var(--background)] rounded-2xl border border-[var(--border)]"
               >
-                <div className="text-6xl md:text-8xl font-bold mb-2 chrome-text">
-                  {stat.value}
-                </div>
-                <div className="text-[var(--text-secondary)] text-lg">
-                  {stat.label}
-                </div>
+                <h3 className="text-lg font-bold mb-2">{network.name}</h3>
+                <p className="text-[var(--text-secondary)] text-sm">{network.desc}</p>
               </motion.div>
             ))}
-          </motion.div>
+          </div>
         </div>
       </section>
 
       {/* Features */}
-      <section className="py-20 px-6 bg-[var(--surface)]">
+      <section className="py-20 px-6">
         <div className="max-w-7xl mx-auto">
           <h2 className="text-title font-bold mb-12 text-center">
             What Makes HYGH Different
@@ -126,16 +172,16 @@ export default function HyghPage() {
           <div className="grid md:grid-cols-3 gap-8">
             {[
               {
-                title: 'Instant Booking',
-                desc: 'Book and deploy campaigns in minutes, not weeks. Real-time availability across all screens.',
+                title: 'Programmatic Booking',
+                desc: 'Book and deploy campaigns in minutes, not weeks. Real-time availability. No agencies required.',
               },
               {
-                title: 'Hyperlocal Targeting',
-                desc: 'Reach your audience where they are. Precise location targeting across seven German cities.',
+                title: 'Hyperlocal Precision',
+                desc: 'Target by city, district, or specific screen. Reach your audience exactly where they are.',
               },
               {
-                title: '100% Digital',
-                desc: 'Dynamic content. A/B testing. Real-time analytics. Modern advertising for modern brands.',
+                title: '100% Dynamic',
+                desc: 'Full-motion video. Real-time content updates. Analytics that matter. Modern advertising for modern brands.',
               },
             ].map((feature, i) => (
               <motion.div
@@ -144,13 +190,36 @@ export default function HyghPage() {
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
                 transition={{ delay: i * 0.1 }}
-                className="p-8 bg-[var(--background)] rounded-2xl border border-[var(--border)]"
+                className="p-8 bg-[var(--surface)] rounded-2xl border border-[var(--border)]"
               >
                 <h3 className="text-xl font-bold mb-3">{feature.title}</h3>
                 <p className="text-[var(--text-secondary)]">{feature.desc}</p>
               </motion.div>
             ))}
           </div>
+        </div>
+      </section>
+
+      {/* Cities */}
+      <section className="py-20 px-6 bg-[var(--surface)]">
+        <div className="max-w-4xl mx-auto text-center">
+          <motion.h2
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            className="text-title font-bold mb-8"
+          >
+            Live in 15 German Cities
+          </motion.h2>
+          <motion.p
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ delay: 0.1 }}
+            className="text-lg text-[var(--text-secondary)] leading-relaxed"
+          >
+            Berlin · Hamburg · Frankfurt · Köln · München · Düsseldorf · Leipzig · Dresden · Essen · Dortmund · Stuttgart · Hannover · Bremen · Wiesbaden · Tegernsee
+          </motion.p>
         </div>
       </section>
 
