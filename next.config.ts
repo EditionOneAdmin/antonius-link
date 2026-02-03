@@ -5,7 +5,8 @@ const nextConfig: NextConfig = {
   images: {
     unoptimized: true,
   },
-  basePath: '',
+  basePath: '/antonius-link',
+  assetPrefix: '/antonius-link/',
   trailingSlash: true,
 };
 
