@@ -55,7 +55,7 @@ export default function AboutPage() {
               className="relative aspect-[4/5] rounded-2xl overflow-hidden"
             >
               <Image
-                src="/images/hero-antonius.jpg"
+                src="/antonius-link/images/hero-antonius.jpg"
                 alt="Antonius Link"
                 fill
                 className="object-cover"
