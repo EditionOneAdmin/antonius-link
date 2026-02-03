@@ -13,11 +13,11 @@ export const siteConfig = {
 
 export const bio = {
   tagline: 'Where Technology Meets Artistry',
-  intro: `I exist at the intersection of two worlds. By day, I'm reshaping how brands connect with audiences through HYGH—democratizing outdoor advertising across Germany. By night, I transform raw materials into chrome-plated meditations on existence through Edition One.`,
+  intro: `I exist at the intersection of two worlds. By day, I'm reshaping how brands connect with audiences through HYGH—building the digital infrastructure for programmatic outdoor advertising across Germany. By night, I transform raw materials into chrome-plated meditations on existence through Edition One.`,
   
   full: `Some people choose between business and art. I refused.
 
-At HYGH, we've built Germany's most innovative digital out-of-home advertising network. What started as a vision to make outdoor advertising accessible has grown into a €21.5M-funded platform spanning seven cities. We're not just selling ad space—we're reimagining how physical and digital worlds collide.
+At HYGH, we're building Germany's new digital infrastructure for outdoor advertising. What started as a vision at 23 to make outdoor advertising accessible has grown into a platform with 3,700+ displays across 15 German cities, reaching 226 million weekly contacts. We're not just selling ad space—we're reimagining how physical and digital worlds collide.
 
 But technology alone doesn't feed the soul.
 
