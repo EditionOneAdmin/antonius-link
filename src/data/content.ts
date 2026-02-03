@@ -5,8 +5,8 @@ export const siteConfig = {
   url: 'https://antonius.link',
   email: 'hello@antonius.link',
   social: {
-    linkedin: 'https://linkedin.com/in/antoniuslink',
-    instagram: 'https://instagram.com/antoniuslink',
+    linkedin: 'https://de.linkedin.com/in/antonius-link',
+    instagram: 'https://www.instagram.com/antonius.link/',
     twitter: 'https://twitter.com/antoniuslink',
   },
 };
