@@ -1,0 +1,58 @@
+export const siteConfig = {
+  name: 'Antonius Link',
+  title: 'Antonius Link — Entrepreneur · Artist · Visionary',
+  description: 'Co-Founder of HYGH and Edition One. Building the future of digital advertising while crafting timeless art.',
+  url: 'https://antonius.link',
+  email: 'hello@antonius.link',
+  social: {
+    linkedin: 'https://linkedin.com/in/antoniuslink',
+    instagram: 'https://instagram.com/antoniuslink',
+    twitter: 'https://twitter.com/antoniuslink',
+  },
+};
+
+export const bio = {
+  tagline: 'Where Technology Meets Artistry',
+  intro: `I exist at the intersection of two worlds. By day, I'm reshaping how brands connect with audiences through HYGH—democratizing outdoor advertising across Germany. By night, I transform raw materials into chrome-plated meditations on existence through Edition One.`,
+  
+  full: `Some people choose between business and art. I refused.
+
+At HYGH, we've built Germany's most innovative digital out-of-home advertising network. What started as a vision to make outdoor advertising accessible has grown into a €21.5M-funded platform spanning seven cities. We're not just selling ad space—we're reimagining how physical and digital worlds collide.
+
+But technology alone doesn't feed the soul.
+
+Edition One is my answer to a world drowning in mass-produced mediocrity. Together with my co-founders, we bridge visionary collectors with master artisans. Every piece exists once—crafted for one person, one space, one story. No compromises. No replicas.
+
+My sculptures explore the space between chaos and clarity, questioning everything from consciousness to morality. Chrome becomes my medium for making the invisible visible—thoughts rendered in metal, paradoxes frozen in mirror finishes.
+
+Berlin is my home. Creation is my compass.`,
+  
+  quote: '"Art should be as unique as the soul that desires it."',
+};
+
+export const hyghContent = {
+  role: 'Co-Founder',
+  tagline: 'Digital outdoor advertising, now in HYGH definition.',
+  problem: `Outdoor advertising was broken. Reserved for big brands with bigger budgets. Inflexible. Inaccessible. We saw an industry ripe for disruption.`,
+  solution: `HYGH is the world's first online booking platform for outdoor advertising that makes professional campaign management possible from anywhere. Instant deployment. Hyperlocal targeting. 100% dynamic.`,
+  stats: [
+    { value: '€21.5M', label: 'Raised' },
+    { value: '7', label: 'German Cities' },
+    { value: '2018', label: 'Founded' },
+  ],
+  link: 'https://hygh.tech',
+};
+
+export const editionOneContent = {
+  role: 'Co-Founder',
+  tagline: 'Art should be as unique as the soul that desires it.',
+  problem: `Mass production killed the soul of art. Galleries gatekeep. Prints proliferate. True craftsmanship fades into memory.`,
+  solution: `We bridge visionary collectors with master artisans. No middlemen. No compromises. Every piece commissioned through us exists once—crafted for one person, one space, one story.`,
+  offerings: [
+    { title: 'Chrome & Steel', desc: 'Mirror-polished surfaces. Industrial elegance refined into art.' },
+    { title: 'Matte & Chromium', desc: 'Sophisticated finishes. From velvet matte to lustrous chrome reflections.' },
+    { title: 'Bespoke Commissions', desc: 'Beyond categories. If you can dream it, we can manifest it.' },
+  ],
+  collective: ['Antonius Link', 'Kyrill Pysarenko', 'Fritz Sprüth'],
+  link: 'https://editionone.art',
+};

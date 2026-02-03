@@ -1,0 +1,150 @@
+export interface Artwork {
+  id: string;
+  title: string;
+  slug: string;
+  year: string;
+  materials: string;
+  description: string;
+  image: string;
+  category: 'sculpture' | 'chrome' | 'conceptual';
+  featured?: boolean;
+}
+
+export const artworks: Artwork[] = [
+  {
+    id: '1',
+    title: 'Tangled Mind',
+    slug: 'tangled-mind',
+    year: '2025',
+    materials: 'Chrome-plated steel, mirror finish',
+    description: 'A meditation on the complexity of human thought. Intricate metallic threads weave through space, capturing the beautiful chaos of consciousness—where clarity and confusion dance in eternal embrace.',
+    image: '/images/artwork/Tangled_Mind.jpg',
+    category: 'chrome',
+    featured: true,
+  },
+  {
+    id: '2',
+    title: 'I Eat Attention',
+    slug: 'i-eat-attention',
+    year: '2025',
+    materials: 'Polished chrome, LED integration',
+    description: 'In an age of infinite distraction, attention becomes currency. This piece embodies the insatiable hunger of modern media—a chrome predator reflecting your own gaze back at you.',
+    image: '/images/artwork/I_Eat_Attention.jpg',
+    category: 'sculpture',
+    featured: true,
+  },
+  {
+    id: '3',
+    title: 'Veins of Eternity',
+    slug: 'veins-of-eternity',
+    year: '2025',
+    materials: 'Brushed steel, copper accents',
+    description: 'Life flows through all things. This sculptural network traces the invisible connections between us—arteries of existence rendered in eternal metal.',
+    image: '/images/artwork/Veins_of_Eternity.jpg',
+    category: 'sculpture',
+    featured: true,
+  },
+  {
+    id: '4',
+    title: 'Would You Kill Baby Hitler',
+    slug: 'would-you-kill-baby-hitler',
+    year: '2025',
+    materials: 'Chrome, mixed media',
+    description: 'The ultimate moral paradox made physical. A provocative exploration of ethics, determinism, and the weight of impossible choices.',
+    image: '/images/artwork/Would_You_Kill_Baby_Hitler.jpg',
+    category: 'conceptual',
+    featured: true,
+  },
+  {
+    id: '5',
+    title: 'Alien Intelligence',
+    slug: 'alien-intelligence',
+    year: '2025',
+    materials: 'Mirror-polished steel',
+    description: 'What does consciousness look like from the outside? This piece imagines intelligence as something both familiar and utterly foreign—a chrome entity observing humanity.',
+    image: '/images/artwork/Alien_Intelligence.jpg',
+    category: 'chrome',
+  },
+  {
+    id: '6',
+    title: 'Bubble Baba',
+    slug: 'bubble-baba',
+    year: '2025',
+    materials: 'Polished chrome spheres',
+    description: 'Childhood wonder preserved in chrome. Spherical forms float in frozen motion, capturing the ephemeral joy of soap bubbles made permanent.',
+    image: '/images/artwork/Bubble_Baba.jpg',
+    category: 'sculpture',
+  },
+  {
+    id: '7',
+    title: 'Cherry Cherry Lady',
+    slug: 'cherry-cherry-lady',
+    year: '2025',
+    materials: 'Automotive paint on chrome',
+    description: 'Sweetness and seduction. A pop-art inspired chrome sculpture that celebrates desire in its most playful, unapologetic form.',
+    image: '/images/artwork/Cherry_Cherry_Lady.jpg',
+    category: 'sculpture',
+  },
+  {
+    id: '8',
+    title: 'Running Thoughts',
+    slug: 'running-thoughts',
+    year: '2025',
+    materials: 'Quartz sand, chrome frame',
+    description: 'Ideas never stand still. This kinetic piece captures the perpetual motion of the creative mind—thoughts racing, colliding, evolving.',
+    image: '/images/artwork/Running_Thoughts.jpg',
+    category: 'conceptual',
+  },
+  {
+    id: '9',
+    title: 'I Was Born Champion',
+    slug: 'i-was-born-champion',
+    year: '2025',
+    materials: 'Gold-plated chrome',
+    description: 'Victory is not achieved—it is inherent. A triumphant statement on self-belief, rendered in the eternal gleam of champions.',
+    image: '/images/artwork/I_Was_Born_Champion.jpg',
+    category: 'sculpture',
+  },
+  {
+    id: '10',
+    title: 'The Canvas Remembers',
+    slug: 'the-canvas-remembers',
+    year: '2025',
+    materials: 'Mixed media on metal',
+    description: 'Every surface holds memory. This piece explores the relationship between artist and medium—the marks we leave and the stories materials tell.',
+    image: '/images/artwork/The_Canvas_Remembers.jpg',
+    category: 'conceptual',
+  },
+  {
+    id: '11',
+    title: "What's Behind the Simulation",
+    slug: 'whats-behind-the-simulation',
+    year: '2025',
+    materials: 'Digital print on aluminum',
+    description: 'Are we players or played? A digital meditation on reality, perception, and the thin membrane between what we see and what truly exists.',
+    image: '/images/artwork/Whats_Behind_The_Simulation.png',
+    category: 'conceptual',
+  },
+  {
+    id: '12',
+    title: 'Jesus',
+    slug: 'jesus',
+    year: '2025',
+    materials: 'Chrome-plated resin',
+    description: 'Divinity meets modernity. The most recognized figure in human history, reimagined through the lens of contemporary materialism.',
+    image: '/images/artwork/Jesus.jpg',
+    category: 'sculpture',
+  },
+  {
+    id: '13',
+    title: 'Reiß Dich Zusammen',
+    slug: 'reiss-dich-zusammen',
+    year: '2025',
+    materials: 'Fractured chrome, tension cables',
+    description: '"Pull yourself together." A German imperative made physical—the tension between falling apart and holding on, captured in fractured metal.',
+    image: '/images/artwork/Reiss_Dich_Zusammen.jpg',
+    category: 'conceptual',
+  },
+];
+
+export const featuredArtworks = artworks.filter(a => a.featured);
