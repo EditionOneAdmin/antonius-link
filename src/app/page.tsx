@@ -223,15 +223,12 @@ export default function Home() {
                       src={artwork.image}
                       alt={artwork.title}
                       fill
-                      className="object-cover grayscale-hover group-hover:scale-105 transition-transform duration-500"
+                      className="object-cover group-hover:scale-105 transition-transform duration-500"
                     />
                   </div>
                   <h3 className="font-semibold mb-1 group-hover:opacity-70 transition-opacity">
                     {artwork.title}
                   </h3>
-                  <p className="text-sm text-[var(--text-secondary)]">
-                    {artwork.materials}
-                  </p>
                 </Link>
               </motion.div>
             ))}

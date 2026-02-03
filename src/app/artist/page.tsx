@@ -126,23 +126,13 @@ function ArtworkCard({ artwork, index }: { artwork: Artwork; index: number }) {
             src={artwork.image}
             alt={artwork.title}
             fill
-            className="object-cover grayscale-hover group-hover:scale-105 transition-all duration-700"
+            className="object-cover group-hover:scale-105 transition-all duration-700"
           />
           <div className="absolute inset-0 bg-black/0 group-hover:bg-black/20 transition-colors duration-300" />
         </div>
-        <div className="flex justify-between items-start">
-          <div>
-            <h3 className="font-semibold text-lg mb-1 group-hover:opacity-70 transition-opacity">
-              {artwork.title}
-            </h3>
-            <p className="text-sm text-[var(--text-secondary)]">
-              {artwork.year} · {artwork.materials}
-            </p>
-          </div>
-          <span className="text-xs font-mono uppercase text-[var(--text-secondary)] px-2 py-1 bg-[var(--surface-secondary)] rounded">
-            {artwork.category}
-          </span>
-        </div>
+        <h3 className="font-semibold text-lg group-hover:opacity-70 transition-opacity">
+          {artwork.title}
+        </h3>
       </Link>
     </motion.div>
   );

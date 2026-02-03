@@ -84,9 +84,6 @@ export default async function ArtworkPage({ params }: PageProps) {
                 <p className="font-medium">{artwork.year}</p>
               </div>
               <div>
-                <h3 className="text-sm font-mono text-[var(--text-secondary)] mb-1">Materials</h3>
-                <p className="font-medium">{artwork.materials}</p>
-              </div>
               <div>
                 <h3 className="text-sm font-mono text-[var(--text-secondary)] mb-1">Availability</h3>
                 <p className="font-medium">Price on request</p>

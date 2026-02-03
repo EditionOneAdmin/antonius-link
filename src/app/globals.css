@@ -134,14 +134,7 @@ img {
 }
 
 /* Grayscale to color effect */
-.grayscale-hover {
-  filter: grayscale(100%);
-  transition: filter 0.5s ease;
-}
 
-.grayscale-hover:hover {
-  filter: grayscale(0%);
-}
 
 /* Link underline animation */
 .link-underline {
