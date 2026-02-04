@@ -27,7 +27,7 @@ My sculptures explore the space between chaos and clarity, questioning everythin
 
 Berlin is my home. Creation is my compass.`,
   
-  quote: '"Art should be as unique as the soul that desires it."',
+  quote: '"The age of machines will be defined by human art."',
 };
 
 export const hyghContent = {
@@ -52,7 +52,7 @@ export const hyghContent = {
 
 export const editionOneContent = {
   role: 'Co-Founder',
-  tagline: 'Art should be as unique as the soul that desires it.',
+  tagline: 'The age of machines will be defined by human art.',
   problem: `Mass production killed the soul of art. Galleries gatekeep. Prints proliferate. True craftsmanship fades into memory.`,
   solution: `We bridge visionary collectors with master artisans. No middlemen. No compromises. Every piece commissioned through us exists once—crafted for one person, one space, one story.`,
   link: 'https://editionone.art',
