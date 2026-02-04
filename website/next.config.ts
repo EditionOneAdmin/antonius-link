@@ -1,0 +1,13 @@
+import type { NextConfig } from "next";
+
+const nextConfig: NextConfig = {
+  output: 'export',
+  images: {
+    unoptimized: true,
+  },
+  basePath: '/antonius-link',
+  assetPrefix: '/antonius-link/',
+  trailingSlash: true,
+};
+
+export default nextConfig;
