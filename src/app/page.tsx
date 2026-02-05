@@ -29,7 +29,7 @@ export default function Home() {
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8 }}
-            className="text-display font-bold tracking-tight mb-6"
+            className="text-display font-bold tracking-tight mb-6 drop-shadow-[0_2px_8px_rgba(0,0,0,0.6)]"
           >
             ANTONIUS LINK
           </motion.h1>
@@ -37,9 +37,9 @@ export default function Home() {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.2 }}
-            className="text-xl md:text-2xl font-light tracking-wide text-white/90"
+            className="text-xl md:text-2xl font-light tracking-wide text-white drop-shadow-[0_2px_4px_rgba(0,0,0,0.5)]"
           >
-            Entrepreneur · Artist · Visionary
+            Entrepreneur · Artist
           </motion.p>
         </div>
 
