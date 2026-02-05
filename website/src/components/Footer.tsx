@@ -10,7 +10,7 @@ export function Footer() {
           <div className="md:col-span-2">
             <h3 className="text-2xl font-bold mb-4">ANTONIUS LINK</h3>
             <p className="text-[var(--text-secondary)] max-w-md">
-              Entrepreneur. Artist. Visionary. Building the future of digital advertising
+              Entrepreneur. Artist. Building the future of digital advertising
               while crafting timeless art.
             </p>
           </div>

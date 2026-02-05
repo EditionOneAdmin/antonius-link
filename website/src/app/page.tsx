@@ -40,7 +40,7 @@ export default function Home() {
             transition={{ duration: 0.8, delay: 0.2 }}
             className="text-xl md:text-2xl font-light tracking-wide text-white/90"
           >
-            Entrepreneur · Artist · Visionary
+            Entrepreneur · Artist
           </motion.p>
         </div>
 

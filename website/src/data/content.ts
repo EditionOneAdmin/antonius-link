@@ -1,6 +1,6 @@
 export const siteConfig = {
   name: 'Antonius Link',
-  title: 'Antonius Link — Entrepreneur · Artist · Visionary',
+  title: 'Antonius Link — Entrepreneur · Artist',
   description: 'Co-Founder of HYGH and Edition One. Building the future of digital advertising while crafting timeless art.',
   url: 'https://antonius.link',
   email: 'hello@antonius.link',
