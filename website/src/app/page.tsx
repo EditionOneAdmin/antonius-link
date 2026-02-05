@@ -5,6 +5,7 @@ import Link from 'next/link';
 import { motion } from 'framer-motion';
 import { featuredArtworks } from '@/data/artworks';
 import { bio, hyghContent, editionOneContent } from '@/data/content';
+import { basePath } from '@/lib/config';
 
 export default function Home() {
   return (
@@ -14,7 +15,7 @@ export default function Home() {
         {/* Background Image */}
         <div className="absolute inset-0 z-0">
           <Image
-            src="/images/hero-antonius.jpg"
+            src={`${basePath}/images/hero-antonius.jpg`}
             alt="Antonius Link"
             fill
             className="object-cover"

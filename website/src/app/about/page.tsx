@@ -4,6 +4,7 @@ import { motion } from 'framer-motion';
 import Image from 'next/image';
 import Link from 'next/link';
 import { bio, siteConfig } from '@/data/content';
+import { basePath } from '@/lib/config';
 
 export default function AboutPage() {
   return (
@@ -55,7 +56,7 @@ export default function AboutPage() {
               className="relative aspect-[4/5] rounded-2xl overflow-hidden"
             >
               <Image
-                src="/images/hero-antonius.jpg"
+                src={`${basePath}/images/hero-antonius.jpg`}
                 alt="Antonius Link"
                 fill
                 className="object-cover"
